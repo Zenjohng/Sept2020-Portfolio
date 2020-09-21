@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  background-color: burlywood;
+  background-color: #bdbde974, 74, 75);
 }
 
 .cover-container{
@@ -14,7 +14,10 @@ html, body {
 
 .masthead-brand {
   font-family: 'Cinzel', serif;
-  color: white;
+  color:black;
+  background-color: cadetblue;
+  opacity:60% ;
+  font-weight: bold;
 }
 
 .service-header {
@@ -82,7 +85,7 @@ html, body {
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #4CAF50;
+  background-color: hsl(181, 39%, 42%);
   color: white;
 }
 
@@ -94,4 +97,11 @@ html, body {
 }
 .item{
   color: black;
+}
+.zen-port{
+text-align: center;
+background-color: rgb(67, 162, 165);
+opacity: 70%;
+font-weight: bold;
+font-color:black;
 }
