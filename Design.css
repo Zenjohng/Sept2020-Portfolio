@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  background-color: burlywood;
 }
 
 .cover-container{
@@ -21,7 +22,7 @@ html, body {
 }
 
 .lead, .cover-heading {
-  color: white;
+  color: black;
   font-family: 'Lato', sans-serif;
 }
 
@@ -82,4 +83,14 @@ html, body {
 .active {
   background-color: #4CAF50;
   color: white;
+}
+
+.carousel-caption{
+  color:black;
+  font-size: large;
+
+
+}
+.item{
+  color: black;
 }
